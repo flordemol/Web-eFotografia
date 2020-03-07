@@ -83,6 +83,7 @@ header {
 	font-size: 10px;
 	display: inline-block;
 	background-color: #1C1C1C;
+	border-radius: 5px;
 }
 
 #idioma li a:hover {
@@ -99,44 +100,47 @@ header {
 	display: inline-block;
 }
 
-#texto_acerca_de_conFoto {
-	width: 350px;
-	height: 310px;
-	margin-top: 30px;
-	margin-right: 10px;
-	float: right;
+#texto_presentacion {
+	font-size: 17px;
+	text-align: justify;
 }
 
-#texto_acerca_de_conFoto p {
-	font-size: 17px;
-	text-align: center;
+#texto_acerca_de_conFoto {
+	width: 450px;
+	height: 380px;
+	margin-top: 30px;
+	margin-left: 0px;
+	float: left;
 }
 
 #texto_acerca_de {
 	width: 790px;
 	height: 150px;
-	margin-left: 10px;
-	font-size: 17px;
-	text-align: center;
+	margin-right: 10px;
 	clear: both;
+	padding-top: 5px;
 }
 
 #foto_acerca_de {
-	width:430px;
-	height: 300px;
-	margin-top: 30px;
-	margin-left: 10px;
-	float: left;
+	width:300px;
+	height: auto;
+	margin-top: 55px;
+	margin-right: 20px;
+	float: right;
 }
 
 #foto_acerca_de img {
-	width: 430px;
-	height: 300px;
-	-ms-object-fit: cover;
-	-moz-object-fit: cover;
-	-o-object-fit: cover;
-	-webkit-object-fit: cover;
-	object-fit: cover;
+	width: 280px;
+	height: auto;
+	-ms-object-fit: countain;
+	-moz-object-fit: countain;
+	-o-object-fit: countain;
+	-webkit-object-fit: countain;
+	object-fit: countain;
+}
+
+#foto_acerca_de img:hover {
+filter: grayscale(100%);
 }
 
 #redes_sociales {
@@ -168,10 +172,11 @@ footer {
 	height: 50px;
 	background-color: #13252D;
 	text-align: center;
+	margin-top: 70px;
 }
 
 footer p {
-	font-size: 12px;
+	font-size: 10px;
 	height: 50px;
 	line-height: 50px;
 }
