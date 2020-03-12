@@ -139,8 +139,9 @@ header {
 	object-fit: countain;
 }
 
-#foto_acerca_de img:hover {
-filter: grayscale(100%);
+figcaption {
+	padding-left: 45px;
+	font-size: 11px;
 }
 
 #redes_sociales {
